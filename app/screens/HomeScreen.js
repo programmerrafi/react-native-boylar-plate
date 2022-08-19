@@ -12,8 +12,10 @@ const HomeScreen = () => {
   // }, []);
 
   return (
-    <View>
-      <Text>Home Screen</Text>
+    <View className="bg-red-500">
+      <Text className="text-center text-white text-2xl font-bold">
+        Home Screen
+      </Text>
     </View>
   );
 };
